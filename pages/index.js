@@ -77,7 +77,7 @@ const calculateSavings = (faceValue, sellingPrice) => {
 };
 
 function BrandCard({ card }) {
-  const whatsappNumber = '919052388981';
+  const whatsappNumber = '919052388981'; // ✅ YOUR WHATSAPP NUMBER
   const [customPrice, setCustomPrice] = useState('');
   const [customResult, setCustomResult] = useState(null);
   const [error, setError] = useState('');
